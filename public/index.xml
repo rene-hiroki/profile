@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Siteeee</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Siteeee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hi Hugo</title>
+      <link>http://example.org/post/2021-02-20-hi-hugo/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/post/2021-02-20-hi-hugo/</guid>
+      <description>あいうえお
+summary(Orange) ## Tree age circumference ## 3:7 Min. : 118.0 Min. : 30.0 ## 1:7 1st Qu.: 484.0 1st Qu.: 65.5 ## 5:7 Median :1004.0 Median :115.0 ## 2:7 Mean : 922.1 Mean :115.9 ## 4:7 3rd Qu.:1372.0 3rd Qu.:161.5 ## Max. :1582.0 Max. :214.0library(ggplot2) oplot &amp;lt;- ggplot(Orange, aes(x = age, y = circumference, colour = Tree)) + geom_point() + geom_line() + guides(colour = FALSE) + theme_bw() print(oplot) knitr::include_graphics(&amp;#34;IMG_20190614_122317.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>http://example.org/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>http://example.org/post/2020-12-01-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+    </item>
+    
+  </channel>
+</rss>
