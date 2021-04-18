@@ -1,0 +1,5 @@
+theme: "hulga"
+baseURL: http://example.org/
+languageCode: ja
+title: 日々の雑学
+

@@ -1,0 +1,78 @@
+baseURL = "https://example.com"
+languageCode = "ja"
+DefaultContentLanguage = "ja"
+title = "日々の雑学"
+paginate = 10
+theme = "hulga"
+enableEmoji = true
+hasCJKLanguage = true
+
+[social]
+  github  = "https://github.com/renehiroki"
+  twitter = "https://twitter.com/renehiroki"
+
+[params]
+  # show in HTML meta tag
+  author = "Akiyama Hiroki"
+  keywords = "R, data science"
+  description = "Hiroki's blog, I like R."
+  dateFormat = "2006年01月02日"
+
+  # change bulma's primary color
+  primaryColor = "#75E3FF"
+
+  # subtitle on homepage
+  subtitle = "ほとんどがRの記事です"
+
+  # copyright text on footer
+  copyright = "Copyright © 2021 秋山浩希 All rights reserved."
+
+  # enable katex rendering on every post page
+  math = true
+
+  # enable postcss, mainly for css purge (129kB->20kB->4.8kB gzipped, but this makes build slower)
+  # postcss = true
+
+  # enable toc on every post page
+  toc = true
+
+  # enable TOC auto collapse
+  autoCollapseToc = true
+
+  # enable prefers-color-scheme:dark
+  darkMedia = true
+
+  # enable hero section's is-bold effect
+  heroBold = true
+
+  # enable PWA, prepare your icons and DON'T forget to modify manifest.json
+  # pwa = true
+
+  # disable jsdelivr cdn, default false
+  noCDN = false
+
+# to enable different hightlight themes in light/dark mode 
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  [[menu.main]]
+    identifier = "index"
+    name = "ブログ"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "archives"
+    name = "アーカイブ"
+    url = "/archives/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "プロフィール"
+    url = "/about/"
+    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
