@@ -98,5 +98,3 @@ d %>% select(-時期) %>%
 <a class="github-button" href="https://github.com/renehiroki" data-color-scheme="no-preference: dark; light: dark; dark: light;" aria-label="Follow @renehiroki on GitHub">Follow @renehiroki</a></li>
 </ul>
 
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSetA5EjYBDIbQ4yCBmxEaFiut0ezq6PdFp6yVVttaL-geGdNQ/viewform?embedded=true" width="640" height="670" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
