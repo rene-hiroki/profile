@@ -65,21 +65,26 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
     name = "ブログ"
     url = "/"
     weight = 1
-  # [[menu.main]]
-  #  identifier = "archives"
-  #  name = "アーカイブ"
-  #  url = "/archives/"
-  #  weight = 2
   [[menu.main]]
-    identifier = "profile"
-    name = "プロフィール"
-    url = "/profile/"
+    identifier = "archives"
+    name = "アーカイブ"
+    url = "/archives/"
     weight = 2
+  [[menu.main]]
+    identifier = "tags"
+    name = "タグ"
+    url = "/tags/"
+    weight = 3
   [[menu.main]]
     identifier = "contact"
     name = "コンタクト"
     url = "/contact/"
-    weight = 3
+    weight = 4
+  [[menu.main]]
+    identifier = "profile"
+    name = "プロフィール"
+    url = "/profile/"
+    weight = 5
 
 [taxonomies]
 category = "categories"
