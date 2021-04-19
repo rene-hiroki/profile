@@ -7,6 +7,9 @@ theme = "hulga"
 enableEmoji = true
 hasCJKLanguage = true
 
+ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+
+
 [social]
   github  = "https://github.com/renehiroki"
   twitter = "https://twitter.com/renehiroki"
@@ -62,15 +65,20 @@ hasCJKLanguage = true
     name = "ブログ"
     url = "/"
     weight = 1
+  # [[menu.main]]
+  #  identifier = "archives"
+  #  name = "アーカイブ"
+  #  url = "/archives/"
+  #  weight = 2
   [[menu.main]]
-    identifier = "archives"
-    name = "アーカイブ"
-    url = "/archives/"
+    identifier = "profile"
+    name = "プロフィール"
+    url = "/profile/"
     weight = 2
   [[menu.main]]
-    identifier = "about"
-    name = "プロフィール"
-    url = "/about/"
+    identifier = "contact"
+    name = "コンタクト"
+    url = "/contact/"
     weight = 3
 
 [taxonomies]

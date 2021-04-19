@@ -1,0 +1,102 @@
+---
+title: "プロフィール"
+author: "Akiyama Hiroki"
+date: "2021/04/19"
+math: no
+toc: true
+---
+
+## 基本情報
+
+* 秋山浩希（あきやま　ひろき）
+
+## 趣味
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(ggrepel)
+
+d <- tribble(
+  ~時期,  ~year, ~読書, ~料理, ~お酒, ~バスケ, ~R, ~Python, ~ゲーム, ~投資,
+   "高3",  2013,  NA,    NA,    NA,    10,      NA, NA,       1,      NA,
+   "浪",   2014,  NA,    NA,    NA,    9,       NA, NA,       1,      NA,
+   "B1",   2015,  NA,    8,     7,     9,       NA, NA,       1,      NA,
+   "B2",   2016,  8,     7,     6,     5,       NA, NA,       1,      4,
+   "B3",   2017,  10,    6,     5,     4,       NA, NA,       1,      0,
+   "B4",   2018,  6,     1,     5,     3,       4,   2,        0,      0,
+   "M1",   2019,  4,     6,     5,     1,       10,  3,        1,      2,
+   "M2",   2020,  7,     6,     5,     0,       9,   4,        2,      1,
+   "今",   2021,  7,     6,     4,     1,       9,   5,        2,      3,
+)
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+d %>% select(-時期) %>%
+  pivot_longer(-year, names_to = "趣味", values_to = "優先度") %>% 
+  mutate(label = ifelse(year == max(year), 趣味, NA)) %>% 
+  rename(年 = year) %>% 
+  ggplot(aes(x = 年, y = 優先度, color = 趣味)) +
+  geom_line(size = 1.2) +
+  geom_point(size = 3) +
+  scale_color_viridis_d(end = 1) +
+  geom_text_repel(aes(label = label), size = 6, na.rm = TRUE, nudge_x = Inf, ) + 
+  scale_x_continuous(breaks = c(2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021),
+                     limits = c(2013, 2022)) +
+  scale_y_continuous(breaks = c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+                     limits = c(0, 10)) +
+  labs(title = "趣味の変遷") +
+  theme(
+    plot.title = element_text(size = 24),
+    axis.text = element_text(size = 15),
+    axis.title = element_text(size = 22),
+    plot.caption = element_text(size = 12),
+    legend.text = element_text(size = 21),
+    legend.position = "none"
+  )
+```
+
+
+
+
+## 所属
+
+* 製造業1年目（2021年入社）
+
+## 学歴
+
+* 2021年　滋賀大学大学院データサイエンス研究科 修士課程修了（第1期生）
+* 2019年　滋賀大学経済学部ファイナンス学科　卒業
+* 2014年　東京都立駒場高等学校　卒業
+
+## 資格等
+
+<ul>
+<li>（2020年4月）<a href="https://courses.edx.org/certificates/bf92d08c03604b18807cdd0c56c641a8" target="_blank" rel="noopener noreferrer">Causal Diagrams, Draw Your Assumptions Before Your Conclusions</a></li>
+<li>（2019年6月）<a href="https://credentials.edx.org/credentials/9968f2eacedd4af892bf888b3099826b/" target="_blank" rel="noopener noreferrer">Professional Certificate in Data Science</a></li>
+<li>（2018年7月）統計検定2級</li>
+</ul>
+
+
+## 発表・制作物
+
+<ul>
+<li><a href="https://www.ds.shiga-u.ac.jp/DEML/education.html" target="_blank" rel="noopener noreferrer">
+データエンジニアリング人材養成演習 講義補助教材, 滋賀大学DEMLセンター</a></li>
+<li><a href="https://www.ipsj.or.jp/kenkyukai/event/mps132.html" target="_blank" rel="noopener noreferrer">
+第132回数理モデル化と問題解決研究発表会</a></li>
+</ul>
+
+## SNS
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<ul>
+<li><a href="https://twitter.com/renehiroki?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @renehiroki</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+<li>
+<a class="github-button" href="https://github.com/renehiroki" data-color-scheme="no-preference: dark; light: dark; dark: light;" aria-label="Follow @renehiroki on GitHub">Follow @renehiroki</a></li>
+</ul>
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSetA5EjYBDIbQ4yCBmxEaFiut0ezq6PdFp6yVVttaL-geGdNQ/viewform?embedded=true" width="640" height="670" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
