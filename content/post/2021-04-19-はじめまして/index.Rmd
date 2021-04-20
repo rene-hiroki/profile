@@ -13,4 +13,7 @@ tags:
 
 コンタクトのページを作成しました（[こちら](../../contact/)）。
 
-GA追加
+GA追加 
+
+参考https://helve-blog.com/posts/web-technology/hugo-google-analytics-tag/
+
