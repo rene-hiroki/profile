@@ -6,6 +6,7 @@ paginate = 10
 theme = "hulga"
 enableEmoji = true
 hasCJKLanguage = true
+googleAnalytics = "G-07GP43SK6P"
 
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
