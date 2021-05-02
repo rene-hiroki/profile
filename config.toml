@@ -20,7 +20,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   author = "Akiyama Hiroki"
   keywords = "R, data science"
   description = "Hiroki's blog, I like R."
-  dateFormat = "2006年01月02日"
+  # dateFormat = "2006年01月02日"
 
   # change bulma's primary color
   primaryColor = "#75E3FF"
