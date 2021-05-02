@@ -41,7 +41,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   toc = true
 
   # enable TOC auto collapse
-  autoCollapseToc = true
+  autoCollapseToc = false
 
   # enable prefers-color-scheme:dark
   darkMedia = true
