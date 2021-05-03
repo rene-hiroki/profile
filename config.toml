@@ -57,11 +57,17 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 
 # to enable different hightlight themes in light/dark mode 
 [markup]
+  defaultMarkdownHandler = "goldmark"
   [markup.highlight]
     noClasses = false
+    style = "pygments"
+    codeFences = false  # Disable Hugo's code highlighter as it conflicts with Academic's highligher.
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 2
 
 [menu]
   [[menu.main]]
