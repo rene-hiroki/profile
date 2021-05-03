@@ -7,11 +7,27 @@
 // Set your brand colors
 // $archblue: #1793d0;
 
-{{ if .Site.Params.primaryColor }}
-$primary: {{ .Site.Params.primaryColor }};
-{{end}}
+$primary: #2290FB;
+
+@import "../sass/dark/variables";
+
+$body-background-color:  #1F1F1F;
+
 
 // Update Bulma's global variables
 // can define primary color in theme config
 
 @import "./common.scss";
+@import "../sass/dark/overrides";
+
+// dark override
+.footer {
+    background: #282f2f;
+  }
+  .counter-tag {
+    border-left: 1px solid #282f2f;
+  }
+  .tag:not(body) {
+    background-color: rgba($black-bis, 0.2);
+  }
+
