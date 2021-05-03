@@ -23,7 +23,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   # dateFormat = "2006年01月02日"
 
   # change bulma's primary color
-  # primaryColor = "#2290FB"
+  primaryColor = "#2290FB"
   # backgroundColor = "#1F1F1F"
   # linkColor = "#97B9D9"
   # textColor = "white"

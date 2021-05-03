@@ -51,7 +51,7 @@ $box-background-color: $grey-dark;
 $box-shadow: none;
 
 $link: $blue;
-$link-visited: lighten($yellow, 5);
+$link-visited: $yellow;
 $link-hover: lighten($link, 10);
 $link-focus: darken($link, 5);
 $link-active: darken($link, 5);

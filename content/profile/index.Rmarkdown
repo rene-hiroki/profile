@@ -1,7 +1,7 @@
 ---
 title: "プロフィール"
 author: "Akiyama Hiroki"
-date: "2021/04/19"
+date: "2021/5/3"
 math: no
 toc: true
 ---
@@ -9,6 +9,8 @@ toc: true
 ## 基本情報
 
 * 秋山浩希（あきやま　ひろき）
+
+<br>
 
 ## 趣味
 
@@ -58,18 +60,25 @@ d %>% select(-時期) %>%
 
 
 
+<br>
 
 ## 所属
 
 * 製造業1年目（2021年入社）
 
+<br>
+
 ## 学歴
+
 
 * 2021年　滋賀大学大学院データサイエンス研究科 修士課程修了（第1期生）
 * 2019年　滋賀大学経済学部ファイナンス学科　卒業
 * 2014年　東京都立駒場高等学校　卒業
 
+<br>
+
 ## 資格等
+
 
 <ul>
 <li>（2020年4月）<a href="https://courses.edx.org/certificates/bf92d08c03604b18807cdd0c56c641a8" target="_blank" rel="noopener noreferrer">Causal Diagrams, Draw Your Assumptions Before Your Conclusions</a></li>
@@ -78,7 +87,10 @@ d %>% select(-時期) %>%
 </ul>
 
 
+<br>
+
 ## 発表・制作物
+
 
 <ul>
 <li><a href="https://www.ds.shiga-u.ac.jp/DEML/education.html" target="_blank" rel="noopener noreferrer">
@@ -86,6 +98,9 @@ d %>% select(-時期) %>%
 <li><a href="https://www.ipsj.or.jp/kenkyukai/event/mps132.html" target="_blank" rel="noopener noreferrer">
 第132回数理モデル化と問題解決研究発表会</a></li>
 </ul>
+
+
+<br>
 
 ## SNS
 
