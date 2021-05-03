@@ -23,7 +23,10 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   # dateFormat = "2006年01月02日"
 
   # change bulma's primary color
-  primaryColor = "#75E3FF"
+  # primaryColor = "#2290FB"
+  # backgroundColor = "#1F1F1F"
+  # linkColor = "#97B9D9"
+  # textColor = "white"
 
   # subtitle on homepage
   subtitle = "ほとんどがRの記事です"
@@ -44,7 +47,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   autoCollapseToc = false
 
   # enable prefers-color-scheme:dark
-  darkMedia = true
+  darkMedia = false
 
   # enable hero section's is-bold effect
   heroBold = true
