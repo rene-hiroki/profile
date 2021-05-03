@@ -24,6 +24,6 @@ options(blogdown.hugo.version = "0.80.0")
 
 options(
   blogdown.author = "Akiyama Hiroki",  
-  # blogdown.ext = ".Rmarkdown",      
+  blogdown.ext = ".Rmarkdown",
   blogdown.subdir = "post"          
 )
