@@ -67,6 +67,9 @@
   {{- if .Site.Params.pwa }}
   <link rel="manifest" href="/manifest.json">
   {{- end }}
-  <!-- Analytics -->
+
+<!-- Analytics -->
+{{ if not .Site.IsServer }}
   {{ partial "analytics.html" . }}
+{{ end }}
 </head>
