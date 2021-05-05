@@ -1,7 +1,7 @@
 baseURL = "https://renehiroki.rbind.io/"
 languageCode = "ja"
 DefaultContentLanguage = "ja"
-title = "日々の雑学"
+title = "Rといろいろ"
 paginate = 10
 theme = "hulga"
 enableEmoji = true
@@ -18,18 +18,15 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 [params]
   # show in HTML meta tag
   author = "Akiyama Hiroki"
-  keywords = "R, data science"
+  keywords = "R, python, data science, blog"
   description = "Hiroki's blog, I like R."
   # dateFormat = "2006年01月02日"
 
   # change bulma's primary color
   primaryColor = "#2290FB"
-  # backgroundColor = "#1F1F1F"
-  # linkColor = "#97B9D9"
-  # textColor = "white"
 
   # subtitle on homepage
-  subtitle = "ほとんどがRの記事です"
+  subtitle = "煩悩に苛まれる凡人の非凡"
 
   # copyright text on footer
   copyright = "Copyright © 2021 秋山浩希 All rights reserved."
@@ -62,15 +59,17 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.highlight]
-    noClasses = false
-    style = "pygments"
-    codeFences = false  # Disable Hugo's code highlighter as it conflicts with Academic's highligher.
+    noClasses = true
+    style = "dracula"
+    codeFences = true 
+    guessSyntax = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
   [markup.tableOfContents]
-    startLevel = 2
+    startLevel = 1
     endLevel = 2
+
 
 [menu]
   [[menu.main]]
