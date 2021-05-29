@@ -88,15 +88,20 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
     url = "/tags/"
     weight = 3
   [[menu.main]]
+    identifier = "slide"
+    name = "Slide"
+    url = "/slide/"
+    weight = 4
+  [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 5
   [[menu.main]]
     identifier = "profile"
     name = "Profile"
     url = "/profile/"
-    weight = 5
+    weight = 6
 
 [taxonomies]
 category = "categories"
